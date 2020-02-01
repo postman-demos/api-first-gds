@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>API First For The Humans And The Machines</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+
+<body>
+
+  <div class="reveal">
+
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+
+
+  		<section>
+  <br>
+  <h3>API First For The Humans And The Machines</h3>
+  <img src="images/consumers.png" width="550" align="center">
+  <p>
+    <small>@getpostman</small>
+  </p>
+</section>
+
+
+
+
+
+
+<section data-background="images/teach-space-chief-evangelist.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Kin Lane</h2>
+    <p>Chief Evangelist for Postman</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-api-evangelist.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Kin Lane</h2>
+    <p>The API Evangelist</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-kin-lane-pif.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Presidential Innovation Fellow</h2>
+    <p>I was an innovation fellow in the Obama administration, focusing on open data and APIs across federal agencies.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-commerce.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Commerce</h2>
+    <p>The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-social.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Social</h2>
+    <p>The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-cloud.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Cloud</h2>
+    <p>The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mobile.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mobile</h2>
+    <p>The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-spreadsheet-data.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Data Sources</h2>
+    <p>You have a spreadsheet or database that you need to make available on the web, within mobile applications, and partners.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-water-division-web.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Data Published to a Website</h2>
+    <p>You publish the data to a web or mobile application directly from the data source, making it available on the web as HTML.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-water-widget.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Portable Widget</h2>
+    <p>Then you are in need of a widget that can be embedded on any other website, making the data available in new ways.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-partner-epa-website.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Partner Data Access</h2>
+    <p>Then your partners need access to your data for their websites and application, expanding the scope of access to your data.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mobile-water.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mobile Applications</h2>
+    <p>Then the need for making data available via mobile phones and tablets further expands the need for access to your data.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-devices-water.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Devices</h2>
+    <p>Then the need for making data available via mobile phones and tablets further expands the need for access to your data.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-api-sdlc-existing.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 50%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Existing API Development Lifecycle</h2>
+    <p>A current API lifecycle can take an average of 3-12 months to deliver each version of an API, using a code first approach.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-api-first.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>API First</h2>
+    <p>Over the last five years more API providers are moving toward an API first approach when it comes to delivering their APIs.</p>
+  </div>
+
+</section>
+
+<section data-background="images/1-postman-api-client.png" data-state="slide-1">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Postman as an API Client</h2>
+    <p>Postman is an API platform which began as an HTTP client, allowing developers to make calls to APIs via the web.</p>
+  </div>
+
+</section>
+
+<section data-background="images/2-public-water-systems-path.png" data-state="slide-1">
+
+  
+    
+      <table style="position: absolute; width: 105px; margin-top: 95px; margin-left: 625px;">
+        <tr>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-left.png" style="width: 25px;" align="right" /></td>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:left; vertical-align: text-top; line-height: 2;">Path</td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Create a New API as a Path</h2>
+    <p>To demonstrate, let's design an API for a public water systems dataset by creating a single path for our new API resource.</p>
+  </div>
+
+</section>
+
+<section data-background="images/3-public-water-systems-add-example.png" data-state="slide-2">
+
+  
+    
+      <table style="position: absolute; width: 105px; margin-top: 200px; margin-left: 1020px;">
+        <tr>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:right; vertical-align: text-top; line-height: 2;">Add</td>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-right.png" style="width: 25px;" /></td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Add JSON Example</h2>
+    <p>Add an example to our new API request we have defined as a simple resource path, providing an example of it's response.</p>
+  </div>
+
+</section>
+
+<section data-background="images/4-public-water-systems-add-example.png" data-state="slide-3">
+
+  
+    
+      <table style="position: absolute; width: 105px; margin-top: 55px; margin-left: 1100px;">
+        <tr>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:right; vertical-align: text-top; line-height: 2;">Save</td>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-right.png" style="width: 25px;" /></td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Save JSON Example</h2>
+    <p>Convert our CSV public water system data, convert it into JSON, and take 100 rows and add it as an example for this API.</p>
+  </div>
+
+</section>
+
+<section data-background="images/5-public-water-systems-mock-api.png" data-state="slide-4">
+
+  
+    
+      <table style="position: absolute; width: 105px; margin-top: 460px; margin-left: 380px;">
+        <tr>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-left.png" style="width: 25px;" align="right" /></td>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:left; vertical-align: text-top; line-height: 2;">Mock</td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Add Mock API</h2>
+    <p>Now that we have a path, and an example of what our API response should look like, we want to add a mock for our API.</p>
+  </div>
+
+</section>
+
+<section data-background="images/6-public-water-systems-mock-api.png" data-state="slide-5">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Configure Mock API</h2>
+    <p>Next we will need to give our mock API a name, and then  configure it mock the API we are working to define and design.</p>
+  </div>
+
+</section>
+
+<section data-background="images/7-public-water-systems-mock-api.png" data-state="slide-5">
+
+  
+    
+      <table style="position: absolute; width: 200px; margin-top: 307px; margin-left: 815px;">
+        <tr>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-left.png" style="width: 25px;" align="right" /></td>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:left; vertical-align: text-top; line-height: 2;">Mock URL</td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock API URL</h2>
+    <p>Grab the URL for our mock API, so that we can add it to our API, allowing us to make requests and see it as the response.</p>
+  </div>
+
+</section>
+
+<section data-background="images/8-public-water-systems-mock-api-response.png" data-state="slide-6">
+
+  
+    
+      <table style="position: absolute; width: 250px; margin-top: 100px; margin-left: 290px;">
+        <tr>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:right; vertical-align: text-top; line-height: 2;">Mock API URL</td>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-right.png" style="width: 25px;" /></td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock API Response (JSON)</h2>
+    <p>Now we can combine the mock URL with our API path, click send, and actually see the static response for our new API.</p>
+  </div>
+
+</section>
+
+<section data-background="images/8-public-water-systems-mock-api-response-yaml.png" data-state="slide-7">
+
+  
+    
+      <table style="position: absolute; width: 250px; margin-top: 100px; margin-left: 290px;">
+        <tr>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:right; vertical-align: text-top; line-height: 2;">Mock API URL</td>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-right.png" style="width: 25px;" /></td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock API Response (YAML)</h2>
+    <p>Now we can combine the mock URL with our API path, click send, and actually see the static response for our new API.</p>
+  </div>
+
+</section>
+
+<section data-background="images/8-public-water-systems-mock-api-response-csv.png" data-state="slide-8">
+
+  
+    
+      <table style="position: absolute; width: 250px; margin-top: 100px; margin-left: 290px;">
+        <tr>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:right; vertical-align: text-top; line-height: 2;">Mock API URL</td>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-right.png" style="width: 25px;" /></td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock API Response (CSV)</h2>
+    <p>Now we can combine the mock URL with our API path, click send, and actually see the static response for our new API.</p>
+  </div>
+
+</section>
+
+<section data-background="images/9-public-water-systems-publish-docs.png" data-state="slide-9">
+
+  
+    
+      <table style="position: absolute; width: 105px; margin-top: 490px; margin-left: 380px;">
+        <tr>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-left.png" style="width: 25px;" align="right" /></td>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:left; vertical-align: text-top; line-height: 2;">Add</td>
+        </tr>
+      </table>
+    
+
+    
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Add API Documentation</h2>
+    <p>With a mocked version of our API we can make it a little more tangible by publishing documentation for our API.</p>
+  </div>
+
+</section>
+
+<section data-background="images/10-public-water-systems-publish-docs.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>View API Documentation</h2>
+    <p>Now we have API docs for our API, allowing stakeholders to see how it works, then download and run on their own.</p>
+  </div>
+
+</section>
+
+<section data-background="images/11-public-water-systems-iterate.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 35%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Iterate on API Design</h2>
+    <p>We can now share our mocked API and documentation, and then iterate upon the design of the API and schema.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-api-first.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Iterate Until Complete</h2>
+    <p>Repeating each of the steps, sharing with stakeholders and gathering feedback along the way until it is ready to use.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mock-ui-listing.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock HTML Listings</h2>
+    <p>Once we have our mocked API, we can share them with UI developers, allowing for HTML web interfaces to also be mocked.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mock-widget.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock JavaScript Widgets</h2>
+    <p>We can also share APIs with developers to mock up JavaScript widgets that will make data embeddable on any website.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mock-forms.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock HTML Forms</h2>
+    <p>We can also encourage the development of forms using the APIs, planning out which fields should be posted by users.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mock-mobile.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Mock Mobile Apps</h2>
+    <p>Next, mobile applications can be mocked up using our new APIs, speeding up both API and application development.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-mock-partners-stakeholders.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Partners & Stakeholders</h2>
+    <p>API first brings together all of stakeholders and allows everyone to participate and provide feedback for each API being designed.</p>
+  </div>
+
+</section>
+
+<section data-background="images/postman-api-testing.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>API Testing</h2>
+    <p>Making sure all stakeholders participate in defining assertions which become API tests used to validate each API response.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-contracts.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>API Contracts</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-management.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Deploy / Gateway / Manage</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-portal.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Portals / Documentation</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-monitor.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Monitoring</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-testing-manual-lifecycle.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Manual Testing</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-testing-automated-lifecycle.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Automated Testing</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-security.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Security</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-support.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Support</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-communication.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Communications</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-observability.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Observability</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-governance.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Governance</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-enterprise.jpg" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Enterprise</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-federal-government.jpg" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Federal Government</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-state.jpg" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>State Government</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/teach-space-champion.jpg" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Advocacy / Evangelism / Champions</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+<section data-background="images/storytelling.png" data-state="slide-10">
+
+  
+
+  <div style="position: absolute; width: 40%; margin-top: 500px; right: 1; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>Storytelling</h2>
+    <p>Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.</p>
+  </div>
+
+</section>
+
+
+<section data-state="last"">
+  <br>
+  <h3>API First For The Humans And The Machines</h3>
+  <img src="images/integrations_postmanaut_4.png" width="550" align="center">
+  <p>
+    <small>@getpostman</small>
+  </p>
+</section>
+
+
+  </div>
+
+</div>
+
+<script src="js/reveal.js"></script>
+
+<script>
+
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  controls: false,
+  progress: true,
+  center: true,
+  hash: true,
+  width: "94%",
+  height: "99%",
+  margin: 0,
+  transition: 'slide', // none/fade/slide/convex/concave/zoom
+  /*loop: true,*/
+  /*autoSlide: 6000,
+  autoSlideStoppable: true,*/
+
+  // More info https://github.com/hakimel/reveal.js#dependencies
+  dependencies: [
+    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/highlight/highlight.js', async: true },
+    { src: 'plugin/search/search.js', async: true },
+    { src: 'plugin/zoom-js/zoom.js', async: true },
+    { src: 'plugin/notes/notes.js', async: true }
+  ]
+});
+
+//Reveal.add('<h3>Slide title</h3>');
+
+//Reveal.add('<h3>Slide title</h3>');
+
+//Reveal.addEventListener( 'last', function() {
+//    window.location = 'https://postman-demos.github.io/api-orchestration/';
+//} );
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,618 @@
+- caption_title: Kin Lane
+  caption_text: Chief Evangelist for Postman
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-chief-evangelist.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 35
+- caption_title: Kin Lane
+  caption_text: The API Evangelist
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-api-evangelist.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 35
+- caption_title: Presidential Innovation Fellow
+  caption_text: I was an innovation fellow in the Obama administration, focusing on open data and APIs across federal agencies.
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-kin-lane-pif.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 40
+
+- caption_title: Commerce
+  caption_text: The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-commerce.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 35
+- caption_title: Social
+  caption_text: The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-social.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 35
+- caption_title: Cloud
+  caption_text: The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-cloud.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 35
+- caption_title: Mobile
+  caption_text: The latest wave of web APIs was set into motion by Salesforce, eBay, and Amazon, extending the reach of their networks.
+  margin_right: 1
+  margin_margin_top: 500px
+  background_image: images/teach-space-mobile.png
+  tooltip_show: 0
+  tooltip_text: Response
+  tooltip_width: 160px
+  tooltip_margin_top: 370px
+  tooltip_margin_left: 790px
+  tooltip_direction: left
+  caption_width: 35
+
+
+- caption_title: Data Sources
+  caption_text: You have a spreadsheet or database that you need to make available on the web, within mobile applications, and partners.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-spreadsheet-data.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Data Published to a Website
+  caption_text: You publish the data to a web or mobile application directly from the data source, making it available on the web as HTML.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-water-division-web.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Portable Widget
+  caption_text: Then you are in need of a widget that can be embedded on any other website, making the data available in new ways.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-water-widget.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Partner Data Access
+  caption_text: Then your partners need access to your data for their websites and application, expanding the scope of access to your data.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-partner-epa-website.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Mobile Applications
+  caption_text: Then the need for making data available via mobile phones and tablets further expands the need for access to your data.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-mobile-water.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Devices
+  caption_text: Then the need for making data available via mobile phones and tablets further expands the need for access to your data.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-devices-water.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+
+- caption_title: Existing API Development Lifecycle
+  caption_text: A current API lifecycle can take an average of 3-12 months to deliver each version of an API, using a code first approach.
+  margin_margin_top: 500px
+  caption_width: 50
+  margin_right: 1
+  background_image: images/teach-space-api-sdlc-existing.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: API First
+  caption_text: Over the last five years more API providers are moving toward an API first approach when it comes to delivering their APIs.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-api-first.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Postman as an API Client
+  caption_text: Postman is an API platform which began as an HTTP client, allowing developers to make calls to APIs via the web.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/1-postman-api-client.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Create a New API as a Path
+  caption_text: To demonstrate, let's design an API for a public water systems dataset by creating a single path for our new API resource.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/2-public-water-systems-path.png
+  tooltip_show: 1
+  tooltip_text: Path
+  tooltip_width: 105px
+  tooltip_margin_top: 95px
+  tooltip_margin_left: 625px
+  tooltip_direction: left
+- caption_title: Add JSON Example
+  caption_text: Add an example to our new API request we have defined as a simple resource path, providing an example of it's response.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/3-public-water-systems-add-example.png
+  tooltip_show: 1
+  tooltip_text: Add
+  tooltip_width: 105px
+  tooltip_margin_top: 200px
+  tooltip_margin_left: 1020px
+  tooltip_direction: right
+- caption_title: Save JSON Example
+  caption_text: Convert our CSV public water system data, convert it into JSON, and take 100 rows and add it as an example for this API.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/4-public-water-systems-add-example.png
+  tooltip_show: 1
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 55px
+  tooltip_margin_left: 1100px
+  tooltip_direction: right
+- caption_title: Add Mock API
+  caption_text: Now that we have a path, and an example of what our API response should look like, we want to add a mock for our API.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/5-public-water-systems-mock-api.png
+  tooltip_show: 1
+  tooltip_text: Mock
+  tooltip_width: 105px
+  tooltip_margin_top: 460px
+  tooltip_margin_left: 380px
+  tooltip_direction: left
+- caption_title: Configure Mock API
+  caption_text: Next we will need to give our mock API a name, and then  configure it mock the API we are working to define and design.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/6-public-water-systems-mock-api.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Mock API URL
+  caption_text: Grab the URL for our mock API, so that we can add it to our API, allowing us to make requests and see it as the response.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/7-public-water-systems-mock-api.png
+  tooltip_show: 1
+  tooltip_text: Mock URL
+  tooltip_width: 200px
+  tooltip_margin_top: 307px
+  tooltip_margin_left: 815px
+  tooltip_direction: left
+- caption_title: Mock API Response (JSON)
+  caption_text: Now we can combine the mock URL with our API path, click send, and actually see the static response for our new API.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/8-public-water-systems-mock-api-response.png
+  tooltip_show: 1
+  tooltip_text: Mock API URL
+  tooltip_width: 250px
+  tooltip_margin_top: 100px
+  tooltip_margin_left: 290px
+  tooltip_direction: right
+- caption_title: Mock API Response (YAML)
+  caption_text: Now we can combine the mock URL with our API path, click send, and actually see the static response for our new API.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/8-public-water-systems-mock-api-response-yaml.png
+  tooltip_show: 1
+  tooltip_text: Mock API URL
+  tooltip_width: 250px
+  tooltip_margin_top: 100px
+  tooltip_margin_left: 290px
+  tooltip_direction: right
+- caption_title: Mock API Response (CSV)
+  caption_text: Now we can combine the mock URL with our API path, click send, and actually see the static response for our new API.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/8-public-water-systems-mock-api-response-csv.png
+  tooltip_show: 1
+  tooltip_text: Mock API URL
+  tooltip_width: 250px
+  tooltip_margin_top: 100px
+  tooltip_margin_left: 290px
+  tooltip_direction: right
+- caption_title: Add API Documentation
+  caption_text: With a mocked version of our API we can make it a little more tangible by publishing documentation for our API.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/9-public-water-systems-publish-docs.png
+  tooltip_show: 1
+  tooltip_text: Add
+  tooltip_width: 105px
+  tooltip_margin_top: 490px
+  tooltip_margin_left: 380px
+  tooltip_direction: left
+- caption_title: View API Documentation
+  caption_text: Now we have API docs for our API, allowing stakeholders to see how it works, then download and run on their own.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/10-public-water-systems-publish-docs.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Iterate on API Design
+  caption_text: We can now share our mocked API and documentation, and then iterate upon the design of the API and schema.
+  margin_margin_top: 500px
+  caption_width: 35
+  margin_right: 0
+  background_image: images/11-public-water-systems-iterate.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Iterate Until Complete
+  caption_text: Repeating each of the steps, sharing with stakeholders and gathering feedback along the way until it is ready to use.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-api-first.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+
+- caption_title: Mock HTML Listings
+  caption_text: Once we have our mocked API, we can share them with UI developers, allowing for HTML web interfaces to also be mocked.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-mock-ui-listing.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Mock JavaScript Widgets
+  caption_text: We can also share APIs with developers to mock up JavaScript widgets that will make data embeddable on any website.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-mock-widget.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Mock HTML Forms
+  caption_text: We can also encourage the development of forms using the APIs, planning out which fields should be posted by users.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-mock-forms.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Mock Mobile Apps
+  caption_text: Next, mobile applications can be mocked up using our new APIs, speeding up both API and application development.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-mock-mobile.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Partners & Stakeholders
+  caption_text: API first brings together all of stakeholders and allows everyone to participate and provide feedback for each API being designed.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-mock-partners-stakeholders.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: API Testing
+  caption_text: Making sure all stakeholders participate in defining assertions which become API tests used to validate each API response.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-api-testing.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: API Contracts
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-contracts.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+
+- caption_title: Deploy / Gateway / Manage
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-management.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Portals / Documentation
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-portal.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Monitoring
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-monitor.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Manual Testing
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-testing-manual-lifecycle.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Automated Testing
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-testing-automated-lifecycle.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Security
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-security.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Support
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-support.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Communications
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-communication.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Observability
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-observability.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Governance
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-governance.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Enterprise
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-enterprise.jpg
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Federal Government
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-federal-government.jpg
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: State Government
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-state.jpg
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Advocacy / Evangelism / Champions
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/teach-space-champion.jpg
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Storytelling
+  caption_text: Using API tests to make sure all APIs meet the needs of all applications, and stakeholders using API contracts.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 1
+  background_image: images/storytelling.png
+  tooltip_show: 0
+  tooltip_text: Save
+  tooltip_width: 105px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right

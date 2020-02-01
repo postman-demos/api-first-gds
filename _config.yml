@@ -1,0 +1,11 @@
+opening_title: API First For The Humans And The Machines
+opening_image: images/consumers.png
+
+closing_title: API First For The Humans And The Machines
+closing_image: images/integrations_postmanaut_4.png
+
+markdown: kramdown
+highlighter: rouge
+relative_permalinks: false
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
